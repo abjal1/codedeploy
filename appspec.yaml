@@ -1,0 +1,12 @@
+version: 0.0
+os: linux
+files:
+  - source: /
+    destination: /var/www/html
+hooks:
+  ApplicationStop:
+    - location: Scripts/stop_server.sh
+      timeout: 3600
+  ApplicationStart:
+    - location: Scripts/start_server.sh
+      timeout: 3600
