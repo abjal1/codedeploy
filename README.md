@@ -21,3 +21,8 @@ chmod +x ./install
 service codedeploy-agent start
 
 ref link: https://aws.amazon.com/blogs/devops/setting-up-a-ci-cd-pipeline-by-integrating-jenkins-with-aws-codebuild-and-aws-codedeploy/
+
+# plugins
+
+aws codedeploy
+aws steps
